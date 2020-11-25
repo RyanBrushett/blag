@@ -1,3 +1,7 @@
-[submodule "themes/tale"]
-	path = themes/tale
-	url = https://github.com/EmielH/tale-hugo.git
+[submodule "public"]
+	path = public
+	url = https://github.com/RyanBrushett/RyanBrushett.github.io.git
+	branch = main
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git

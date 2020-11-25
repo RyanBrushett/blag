@@ -1,7 +1,58 @@
 baseURL = "https://RyanBrushett.github.io"
-languageCode = "en-gb"
 title = "ryan brushett"
-theme = "tale"
+languageCode = "en-gb"
+defaultContentLanguage = "en-gb"
+theme = "hugo-coder"
+paginate = 10
 
-[Author]
-  name = "ryan brushett"
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  author = "I'm Ryan"
+  description = "It's my blog"
+  info = "I write code but I do other things too"
+  keywords = "blog,developer,personal"
+  gravatar = "ryanbrushett@gmail.com"
+
+  hideCredits = true
+  hideCopyright = true
+  since = "2020"
+
+  enableTwemoji = true
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/RyanBrushett"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin"
+  weight = 1
+  url = "https://www.linkedin.com/in/ryanbrushett/"
+[[params.social]]
+  name = "Flickr"
+  icon = "fa fa-flickr"
+  weight = 1
+  url = "https://flickr.com/photos/ryanbrushett"
+[[params.social]]
+  name = "Instagram"
+  icon = "fa fa-instagram"
+  weight = 1
+  url = "https://instagram.com/ryanbrushett"
+
