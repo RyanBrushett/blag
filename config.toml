@@ -43,16 +43,16 @@ pygmentscodefencesguesssyntax = true
 [[params.social]]
   name = "LinkedIn"
   icon = "fa fa-linkedin"
-  weight = 1
+  weight = 2
   url = "https://www.linkedin.com/in/ryanbrushett/"
 [[params.social]]
   name = "Flickr"
   icon = "fa fa-flickr"
-  weight = 1
+  weight = 3
   url = "https://flickr.com/photos/ryanbrushett"
 [[params.social]]
   name = "Instagram"
   icon = "fa fa-instagram"
-  weight = 1
+  weight = 4
   url = "https://instagram.com/ryanbrushett"
 

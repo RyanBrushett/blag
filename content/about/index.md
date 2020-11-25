@@ -1,6 +1,7 @@
 ---
 title: "Hi"
 date: 2020-11-24T23:34:17-05:00
+url: /about/
 ---
 
 I like animals, wine, and music.
