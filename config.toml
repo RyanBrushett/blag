@@ -24,6 +24,8 @@ pygmentscodefencesguesssyntax = true
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
+  customCSS = ["css/custom.css"]
+
 # Menu links
 [[menu.main]]
   name = "Blog"
