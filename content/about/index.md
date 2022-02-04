@@ -11,11 +11,13 @@ to call home. I got my B.Sc. studying computer science at
 [Memorial University](https://en.wikipedia.org/wiki/Memorial_University_of_Newfoundland) in St. John's. I wasn't
 _great_ at school but I loved it and worked hard.
 
-In 2016 I moved to Ontario to work for [Shopify](https://shopify.engineering/) where I'm now a senior production
-engineer so that worked out pretty well. It's a great environment to learn and grow. I spent a lot of years making it
+In 2016 I moved to Ontario to work for [Shopify](https://shopify.engineering/) where I'm now an engineering manager
+so that worked out pretty well. It's a great environment to learn and grow. I spent a lot of years making it
 easy for developers to understand and manage the infrastructure their apps are using. In January 2021 I started working
-with a team that focuses on gradual typing of Ruby at scale. A lot of the work that I do now is open-source which makes
-me really happy. I love it when the work that I do helps other people do their best work.
+with a team that focuses on gradual typing of Ruby at scale and later that year I took over managing that team. We've
+broadened our scope to more generally include developer tools for Rubyists and I'm excited about what we have planned!
+A lot of the work that I do now is open-source which makes me really happy. I love it when the work that I do helps
+other people do their best work.
 
 I have a lot of hobbies but I spend most of my time taking photos and playing guitar. I really like wine, animals, and
 loud music. I have two cats and they hate each other but I love them and they love me so it's ok.
