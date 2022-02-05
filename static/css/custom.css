@@ -1,8 +1,8 @@
 .content article p {
     hyphens: manual;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"
+    font-family: 'Source Code Pro', 'Lucida Console', monospace;
 }
 
 li {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"
+    font-family: 'Source Code Pro', 'Lucida Console', monospace;
 }
