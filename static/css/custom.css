@@ -1,8 +1,17 @@
 .content article p {
     hyphens: manual;
-    font-family: 'Source Code Pro', 'Lucida Console', monospace;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 
 li {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, table {
     font-family: 'Source Code Pro', 'Lucida Console', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 3.5rem 0 2.5rem 0;
 }
