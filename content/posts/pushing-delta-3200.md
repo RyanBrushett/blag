@@ -1,5 +1,4 @@
 +++
-draft = true
 date = 2022-02-15T22:52:43-05:00
 title = "Pushing Delta 3200"
 slug = "pushing-delta-3200"
