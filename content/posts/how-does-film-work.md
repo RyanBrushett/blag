@@ -8,7 +8,7 @@ categories = ["Photography"]
 +++
 
 I wrote a
-[post about Pushing Delta 3200](/posts/pushing-delta-3200/)
+[thing about Pushing Delta 3200](/posts/pushing-delta-3200/)
 which very lightly skimmed over a lot of actually pretty interesting things.
 I gave a high-level overview of how I develop a specific black and white film
 (with a lot about why I do it that way) but I'd like to
@@ -23,7 +23,9 @@ _**Note:** I'm definitely not a physicist or a chemist so let's keep this simple
 
 In its most basic form, photographic film is a bunch of silver salt crystals
 (we'll call them "grain" when they're developed),
-suspended in gelatin, on a layer of protective plastic. The silver salts
+suspended in gelatin, on a layer of protective plastic.
+
+The silver salts
 (more precisely "silver halides") you'll find in photographic film are
 silver chloride (`AgCl`), silver bromide (`AgBr`), and silver iodide (`AgI`).
 These aren't completely dissimilar to a halide we're very familiar with,
@@ -48,19 +50,22 @@ We'll talk about other elements of the design later.
 
 We have a strip of plastic with a layer of gelatin on it and a bunch of
 chunky silver halide crystals suspended in the gelatin.
-Let's say we expose it to some light. Photons, the fundamental particle that represents
-electromagnetic radiation such as light (including UV and infrared light),
-fly through our gelatin and some of them hit the surface of one of our silver
-halide crystals.
+Let's say we expose it to some light.
+
+Photons, the fundamental particles that represent electromagnetic radiation such as light
+(including UV and infrared light),
+fly through our gelatin. Some of those photons hit the surface of one of our silver
+halide crystals!
 When this happens, some of the silver halide molecules
 [reduce](https://en.wikipedia.org/wiki/Organic_redox_reaction)
-leaving atoms of metallic silver on the crystal. Remember the darkening I
+leaving a few atoms of metallic silver on the crystal. Remember the darkening I
 mentioned in the previous section? This is what's happening under the hood.
 With sufficient exposure, there'll be clusters of metallic silver atoms
 that will form what's called a
 [latent image](https://en.wikipedia.org/wiki/Latent_image).
 The latent image is persistent and quite stable, especially when kept cool.
-And next you're off to the darkroom!
+
+Now that you've exposed your film, you're off to the darkroom!
 
 ### Developing the Film
 
@@ -80,18 +85,18 @@ happen immediately upon making contact with the developing solution.
 Those clusters of metallic silver atoms created during exposure are catalysts
 which shorten the
 time it takes for the developer to flip the bit, shall we say.
-It might he helpful to think of the development as being set to a kitchen timer.
-The strength of the initial exposure lowers the amount of time initially set on the
-timer. Once started, it'll tick it's way down until `ding!`, the entire silver
+It might he helpful to think of the development of an individual crystal as being
+set to a kitchen timer.
+_The strength of the initial exposure lowers the amount of time initially set on the
+timer_. Once started, it'll tick it's way down until `ding!`, the entire silver
 halide crystal has turned into dark, developed grain of metallic silver.
 
-You have such a huge number of grains on any given frame that, even though
+When zooming out and looking at an entire frame, you have millions and millions of
+silver halide crystals present, sort of like little pixels. So even though
 this is a binary process at the individual crystal level, smooth tonal gradients
-from black to white are possible. Might be helpful to think about how gradients
-are rendered on computer screens with millions of pixels. Now imagine instead of
-pixels, you have many millions of non-uniform silver salt crystals.
+from black to white in the final image are entirely possible.
 Crystal size varies and bigger crystals can have bigger clusters
-of silver which means the supposed kitchen timer is has a shorter initial time.
+of silver which means the supposed kitchen timer has a shorter initial time.
 Also, not every crystal will necessarily be exposed in the same manner. If you
 think of a soft light at the centre of the frame, the centre of that light is
 where exposure was most intense, fading off as you move away from it. Thus, the
@@ -152,7 +157,7 @@ When we talk about film speed, we're describing how sensitive a film stock
 is to light. Modern film comes in a number of speeds and are described
 by film manufacturers with an ISO value. This might be written as ASA
 but honestly, a comparison of film speeds and the resulting images sounds
-like it should be its own post.
+like it should be its own little essay.
 
 So to be precise: for a given lighting situation, with the other parameters
 of exposure (shutter speed, aperture) kept the exact same, using the default
@@ -160,24 +165,73 @@ development technique, a "faster film" will result in a brighter image.
 
 **So what is it that makes film faster or slower?**
 
-Primarily, the size and design of the crystal structure of the silver
+Mainly the size and design of the crystal structure of the silver
 halides that are present in the photographic emulsion. Bigger crystals will
 give more surface area for light to hit and thus make the film more
 photosensitive. A
 [wide light-facing surface area](https://en.wikipedia.org/wiki/Tabular-grain_film)
 (this is the T in
-[Kodak T-max](https://en.wikipedia.org/wiki/Kodak_T-MAX))
+[Kodak T-Max](https://en.wikipedia.org/wiki/Kodak_T-MAX))
 also allows the film to be more efficient which enables both extremely fast, usable
 films (such as Ilford Delta 3200 and T-Max P3200) and very detailed films at
 user-friendly speeds (such as Kodak T-Max 100).
 
-Good, slow, film will have finer grain. If that is shot
+High-quality slow film will have fine grain. If that is shot
 and developed well, the resulting image will be crisp with a very light texture and
 lots of sharp detail. The faster the film, the grainier it gets until you end
 up with a photograph that looks like it's been coated in road salt. I think
 fast film looks awesome so "higher image quality" really depends on what you're
-going for, but slower films can certainly capture more detail due to their design.
+going for. With that said, slower films can capture more detail due to
+their design and are therefore more enlargement-friendly than fast films.
 
 ### Examples
 
-TODO
+All of these examples were scanned as RAWs with a Nikon D850, a 60mm Micro Nikkor 2.8G,
+and processed in Adobe Lightroom using Negative Lab Pro.
+
+#### Full res crop of Ilford ORTHO Plus ISO 80 film
+
+Fine grain, relatively sharp edges. You can see some petal detail.
+I could have shot this sharper I think but who looks at things
+this closely IRL?
+
+Fun note: this is also an orthochromatic film! I briefly
+mentioned this above. TL;DR: This film can't see reds very well (if at all)
+and they will be rendered much darker in the final image.
+
+![Flower Detail](/images/ortho-80-flower-detail.jpg)
+
+([Full size image](https://flic.kr/p/2nbsZCt))
+
+#### Full res crop of Delta 3200 pushed to 12800
+
+Pushing the film exaggerates the grain but you can certainly see the
+difference. Still sharp and still has detail but that's some coarse
+grain for sure.
+
+I absolutely love Delta 3200. This is such a fun film to shoot with the
+speed and the ridiculous grain.
+
+![Watch Detail](/images/delta-3200-watch-detail.jpg)
+
+([Full size image](https://flic.kr/p/2n47uVR))
+
+#### Hardware store on Ortho 80
+
+Resized to web, the grain is almost invisible.
+
+![Preston Hardware](/images/preston.jpg)
+
+#### Wood Stove on Delta 3200
+
+Grain is still very apparent, even resized for web, especially in
+shadow areas.
+
+![Warm Wood Stove](/images/woodstove.jpg)
+
+### That's it!
+
+This was fun. Be sure to read
+[my post about Delta 3200](/posts/pushing-delta-3200/)
+too for a bit more context and a higher-level view of the whole
+film development process.
