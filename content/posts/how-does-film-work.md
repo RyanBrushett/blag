@@ -1,5 +1,4 @@
 +++
-draft = "true"
 date = 2022-03-29T11:27:09-04:00
 title = "How Does Film Work?"
 slug = "how-does-film-work"
