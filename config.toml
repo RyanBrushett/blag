@@ -57,3 +57,9 @@ pygmentscodefencesguesssyntax = true
   icon = "fa fa-instagram"
   weight = 4
   url = "https://instagram.com/ryanbrushett"
+[[params.social]]
+  name = "Mastodon"
+  icon = "fa fa-mastodon"
+  weight = 5
+  url = "https://ruby.social/@ryanbrushett"
+  rel = "me"
