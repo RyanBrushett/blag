@@ -1,5 +1,4 @@
 +++
-draft = true
 date = 2023-04-19T21:39:03-04:00
 title = "Advent Update"
 description = "Yeah I never stuck with it"
