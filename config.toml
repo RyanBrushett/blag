@@ -3,11 +3,13 @@ title = "ryan brushett"
 languageCode = "en-gb"
 defaultContentLanguage = "en-gb"
 theme = "hugo-coder"
-paginate = 10
 
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+[markup.highlight]
+style = "github-dark"
 
 [params]
   author = "I'm Ryan"
@@ -15,12 +17,8 @@ pygmentscodefencesguesssyntax = true
   info = "I write code but I do other things too"
   keywords = "blog,developer,personal"
   gravatar = "ryanbrushett@gmail.com"
-
-  hideCredits = true
-  hideCopyright = true
   since = "2020"
 
-  enableTwemoji = true
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
@@ -39,16 +37,16 @@ pygmentscodefencesguesssyntax = true
 # Social links
 [[params.social]]
   name = "Github"
-  icon = "fa fa-github fa-2x"
+  icon = "fa-brands fa-github fa-2x"
   weight = 1
   url = "https://github.com/RyanBrushett"
 [[params.social]]
   name = "LinkedIn"
-  icon = "fa fa-linkedin"
+  icon = "fa-brands fa-linkedin fa-2x"
   weight = 2
   url = "https://www.linkedin.com/in/ryanbrushett/"
 [[params.social]]
   name = "Flickr"
-  icon = "fa fa-flickr"
+  icon = "fa-brands fa-flickr fa-2x"
   weight = 3
   url = "https://flickr.com/photos/ryanbrushett"
