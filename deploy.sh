@@ -3,6 +3,7 @@ set -e
 
 hugo -t hugo-coder
 cd public
+echo "ryanbrushett.com" > CNAME
 git add .
 msg="Building site ($(date))"
 if [ -n "$*" ]; then
