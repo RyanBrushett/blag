@@ -2,10 +2,22 @@
     hyphens: manual;
     font-family: 'Roboto', sans-serif;
     text-align: left;
+    font-weight: 100;
+}
+
+.date {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 li {
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.footer {
+    display: none;
+    visibility: hidden;
 }
 
 header,
@@ -20,4 +32,9 @@ h4,
 h5,
 h6 {
     margin: 3.5rem 0 2.5rem 0;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
