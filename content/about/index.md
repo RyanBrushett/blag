@@ -12,6 +12,8 @@ I have a lot of hobbies but I spend most of my time riding or tinkering with my 
 
 I made a little post about [things that are important to me](/posts/values) that you can read for a bit more detail.
 
+I also made a [README](/posts/readme) if you're interested in reading about how I like to work.
+
 ##### Previous work stuff
 
 - In 2016, I moved to Ontario to work for [Shopify](https://shopify.engineering/). I spent a lot of years making it easy for developers to understand and manage the infrastructure used by their applications in production. In January 2021 I started working with a team that focuses on gradual typing of Ruby at scale and later that year I took over managing that team! We broadened our focus to include IDE tools for Ruby developers. I'm really proud of the work we did together! I left in 2022 after just over&nbsp;six&nbsp;years.
